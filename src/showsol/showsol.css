@@ -1,0 +1,17 @@
+.container{
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    justify-content:center;
+    
+}
+.container button{
+   
+   border: none;
+    font-size: 24px;
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-weight: bold;
+}

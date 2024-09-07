@@ -1,0 +1,105 @@
+.flexiii{
+    display: flex;
+    justify-content: center;
+}
+
+.main-container{
+    width: auto;
+    height: 300px;
+    border: 1px solid rgb(84, 79, 79);
+    border-radius: 10px;
+    padding: 20px 30px;
+    background: rgb(60, 59, 59);
+    box-shadow: 20px 20px 35px rgba(32, 31, 31, 0.2);
+}
+
+
+.d1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.d1 p{
+    font-size: 34px;
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.d1 input{
+    padding: 10px 10px ;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 10px;
+    background-color: rgb(59, 67, 130);
+    color: white;
+}
+
+
+.d2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.d2 p{
+    font-size: 34px;
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.d2 input{
+    padding: 10px 10px ;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 10px;
+    background-color: rgb(59, 67, 130);
+    color: white;
+}
+
+
+.d3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.d3 p{
+    font-size: 34px;
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.d3 input{
+    padding: 10px 10px ;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 10px;
+    background-color: rgb(59, 67, 130);
+    color: white;
+}
+
+.sendsol-btn{
+    padding: 10px 10px ;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    
+    background-color: rgb(59, 67, 130);
+    color: white; 
+    margin-left: 200px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.sendsol-btn:hover{
+    background-color: blue;
+}
+

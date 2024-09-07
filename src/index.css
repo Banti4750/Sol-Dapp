@@ -1,0 +1,17 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+
+}
+
+  body {
+    background-image: url('./aseset/w3-image.jpg');
+    background-size: cover; /* Scales the image to cover the entire container */
+    /* background-position: center;  */
+  background-repeat: no-repeat; 
+  }
+  
