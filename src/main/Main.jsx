@@ -14,7 +14,7 @@ import { clusterApiUrl } from '@solana/web3.js';
 // Default styles that can be overridden by your app
 import '@solana/wallet-adapter-react-ui/styles.css';
 import Showsol from '../showsol/Showsol';
-import Showtoken from '../showtoken/Showtoken';
+
 
 
 const Main = () => {
@@ -28,12 +28,13 @@ const Main = () => {
           <WalletModalProvider>
          
             
-            <Showsol/>
-            <Showtoken/>
-            <div className='main-cont'>
+          
+            {/* <Showtoken/> */}
+            <div style={{display:'flex'}}>
               <WalletMultiButton style={{ margin: '20px' }} />
               <WalletDisconnectButton style={{ margin: '20px' }} />
             </div>
+            <Showsol/>
 
             
         

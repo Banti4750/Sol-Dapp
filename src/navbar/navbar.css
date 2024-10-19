@@ -1,38 +1,49 @@
-.main{
-    /* background: red; */
+/* Navbar Styles */
+.navbar {
+    position: sticky; /* Make the navbar sticky */
+    top: 0; /* Stick to the top */
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    color: white; /* Text color */
+    z-index: 1000; /* Ensure it appears above other elements */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* color: white; */
-    padding: 10px 10px;
-    margin-bottom: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
-.all-route ul{
+.all-route ul {
     display: flex;
     list-style: none;
     font-size: 20px;
     font-weight: 500;
-    
 }
-.all-route ul a{
+
+.all-route ul a {
     color: white;
     margin: 10px;
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-decoration: none; /* Remove underline from links */
 }
 
-.all-route ul a:hover{
+.all-route ul a:hover {
     border-bottom: 1px #f09819 solid;
-    
 }
-h2{
+
+h2 {
     font-size: 32px;
     background: linear-gradient(to right, #ff512f, #f09819);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  font-size: 38px;
-   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    font-size: 38px;
 }

@@ -1,17 +1,43 @@
-.container{
-    color: white;
-    display: flex;
-    margin-top: 20px;
-    justify-content:center;
-    
+/* showbalance.css */
+
+.main-container {
+  padding: 20px;
+  background-color: #0f1825;
+  color: white;
+  border-radius: 10px;
+  max-width: 800px;
+  /* margin: 0 auto; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.container button{
-   
-   border: none;
-    font-size: 24px;
-    background: linear-gradient(to right, #3a7bd5, #00d2ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.sol-balance {
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.balance {
+  font-size: 1.5rem;
   font-weight: bold;
+  margin-top: 10px;
+}
+
+.token-balances {
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.token-info {
+  border: 1px solid #4CAF50;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 5px 0;
 }

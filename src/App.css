@@ -3,4 +3,9 @@
   display: flex;
   justify-content: center;
   /* align-items: center; */
+  background-image: url('./aseset/Dapp-bg.jpg');
+  background-size: cover; /* Ensure the image covers the entire body */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Avoid repeating the image */
+  position: 'relative',
 }

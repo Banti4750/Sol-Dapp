@@ -1,26 +1,26 @@
-/* sendtoken.css */
+/* createtoken.css */
 
-.send-token-container {
+.create-token-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
-    background-color: #0f1825; /* Dark background to match other components */
+    min-height: 60vh;
+    background-color: #0f1825; /* Dark background */
     padding: 20px;
     border-radius: 10px;
 }
 
-.send-token-card {
+.create-token-card {
     background-color: #1a1a1a; /* Dark card background */
     border-radius: 8px;
     padding: 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    /* width: 100%; */
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     color: white; /* Text color */
 }
 
-.send-token-title {
+.create-token-title {
     text-align: center;
     margin-bottom: 1.5rem;
     color: #4CAF50; /* Title color */
@@ -28,12 +28,6 @@
 
 .input-container {
     margin-bottom: 1rem;
-}
-
-.input-label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #ddd; /* Light gray for the label */
 }
 
 .input-field {
@@ -51,7 +45,7 @@
     margin-bottom: 1rem;
 }
 
-.send-button {
+.create-button {
     width: 100%;
     padding: 0.75rem;
     background-color: #4CAF50;
@@ -62,4 +56,5 @@
     font-size: 1rem;
     transition: background-color 0.3s;
 }
+
 

@@ -1,56 +1,81 @@
-.fllex{
+/* signmessage.css */
+
+.sign-message-container {
     display: flex;
     justify-content: center;
-}
-
-.con{
-    width: auto;
-    height: 200px;
-    border: 1px solid rgb(84, 79, 79);
-    border-radius: 10px;
-    padding: 20px 30px;
-    background: rgb(60, 59, 59);
-    box-shadow: 20px 20px 35px rgba(32, 31, 31, 0.2);
-}
-
-
-.f1{
-    display: flex;
     align-items: center;
-    margin-bottom: 20px;
-}
-.f1 p{
-    font-size: 34px;
-    background: linear-gradient(to right, #3a7bd5, #00d2ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
+    min-height: 50vh;
+    background-color: #0f1825; /* Dark background */
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.f1 input{
-    padding: 10px 10px ;
-    font-size: 20px;
-    border-radius: 7px;
-    border: none;
-    margin-left: 10px;
-    background-color: rgb(59, 67, 130);
+.sign-message-card {
+    background-color: #1a1a1a; /* Dark card background */
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* width: 100%; */
+    width: 400px;
+    color: white; /* Text color */
+}
+
+.sign-message-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #4CAF50; /* Title color */
+}
+
+.input-container {
+    margin-bottom: 1rem;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ddd; /* Light gray for the label */
+}
+
+.input-field {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #2b2b2b; /* Input background */
+    color: white; /* Input text color */
+}
+
+.error-message {
+    color: red;
+    margin-top: 1rem;
+}
+
+.sign-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4CAF50;
     color: white;
-}
-
-
-.sign-btn{
-    padding: 10px 10px ;
-    font-size: 20px;
-    border-radius: 7px;
     border: none;
-    
-    background-color: rgb(59, 67, 130);
-    color: white; 
-    margin-left: 150px;
-    margin-top: 30px;
+    border-radius: 4px;
     cursor: pointer;
-}
-.sign-btn:hover{
-    background-color: blue;
+    font-size: 1rem;
+    transition: background-color 0.3s;
 }
 
+
+.signature-container {
+    margin-top: 1rem;
+}
+
+.signature-title {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.signature {
+    word-break: break-all;
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    border-radius: 4px;
+}

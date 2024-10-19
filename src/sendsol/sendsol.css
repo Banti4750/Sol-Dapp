@@ -1,105 +1,65 @@
-.flexiii{
+/* sendsol.css */
+
+.send-sol-container {
     display: flex;
     justify-content: center;
-}
-
-.main-container{
-    width: auto;
-    height: 300px;
-    border: 1px solid rgb(84, 79, 79);
+    align-items: center;
+    min-height: 50vh;
+    background-color: #0f1825; /* Dark background */
+    padding: 20px;
     border-radius: 10px;
-    padding: 20px 30px;
-    background: rgb(60, 59, 59);
-    box-shadow: 20px 20px 35px rgba(32, 31, 31, 0.2);
 }
 
-
-.d1{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.d1 p{
-    font-size: 34px;
-    background: linear-gradient(to right, #3a7bd5, #00d2ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
+.send-sol-card {
+    background-color: #1a1a1a; /* Dark card background */
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* width: 100%; */
+    width: 400px;
+    color: white; /* Text color */
 }
 
-.d1 input{
-    padding: 10px 10px ;
-    font-size: 20px;
-    border-radius: 7px;
-    border: none;
-    margin-left: 10px;
-    background-color: rgb(59, 67, 130);
+.send-sol-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #4CAF50; /* Title color */
+}
+
+.input-container {
+    margin-bottom: 1rem;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ddd; /* Light gray for the label */
+}
+
+.input-field {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #2b2b2b; /* Input background */
+    color: white; /* Input text color */
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.send-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4CAF50;
     color: white;
-}
-
-
-.d2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-.d2 p{
-    font-size: 34px;
-    background: linear-gradient(to right, #3a7bd5, #00d2ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-}
-
-.d2 input{
-    padding: 10px 10px ;
-    font-size: 20px;
-    border-radius: 7px;
     border: none;
-    margin-left: 10px;
-    background-color: rgb(59, 67, 130);
-    color: white;
-}
-
-
-.d3{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-.d3 p{
-    font-size: 34px;
-    background: linear-gradient(to right, #3a7bd5, #00d2ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-}
-
-.d3 input{
-    padding: 10px 10px ;
-    font-size: 20px;
-    border-radius: 7px;
-    border: none;
-    margin-left: 10px;
-    background-color: rgb(59, 67, 130);
-    color: white;
-}
-
-.sendsol-btn{
-    padding: 10px 10px ;
-    font-size: 20px;
-    border-radius: 7px;
-    border: none;
-    
-    background-color: rgb(59, 67, 130);
-    color: white; 
-    margin-left: 200px;
-    margin-top: 50px;
+    border-radius: 4px;
     cursor: pointer;
-}
-.sendsol-btn:hover{
-    background-color: blue;
+    font-size: 1rem;
+    transition: background-color 0.3s;
 }
 
